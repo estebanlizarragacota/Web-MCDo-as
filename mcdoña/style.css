@@ -1,0 +1,267 @@
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+header nav{
+
+	width: 100%;
+	max-width: 1000px;
+	margin:10px auto;
+	  background:#ffffff;
+	  text-decoration: none;
+}
+
+.menu_bar{
+
+	display: none;
+	color:#037E8C; 
+}
+
+
+header nav ul{
+
+	overflow: hidden;
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li{
+
+	color:#fff;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+
+	}
+
+header nav ul li span{
+
+	margin-right: 5px;
+
+}	
+
+
+
+
+
+
+body{
+background-image: url( img/fondo.jpg);
+margin: 0;
+padding: 0;	
+height: 700px;
+}
+
+header{
+
+  height: 20%; 
+  margin: auto;
+  overflow:hidden;
+  background-image: linear-gradient(#FBA519, #EA5F51);
+
+}
+
+.slider{
+
+	width: 95%;
+	height: 60%;
+	margin: auto;
+	overflow: hidden;
+	background-image: linear-gradient(blue,white);
+
+}
+.slider ul {
+	display: flex;
+    padding:0;
+    margin-top: 0;
+  width: 400%;
+  height: 600px;
+  animation: cambio 15s infinite alternate;
+  animation-timing-function: ease-in; 
+  opacity: 9.1;
+  
+
+}
+.slider li{
+    width: 100%;
+  
+	list-style: none;
+	
+
+}
+
+.slider img{
+     height: 70%;
+	width: 100%;
+	margin: 0 auto;
+
+
+	 } 
+@keyframes cambio{
+
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%}
+	45%{margin-left: -100%}
+
+	50%{margin-left: -200%}
+    70%{margin-left: -200%}
+
+        
+    75%{margin-left: -300%}
+	100%{margin-left: -300%}  
+}
+
+#logo{
+
+   height: 30px;
+   width: 100px;
+   float: center;
+   margin-top: 600px;
+   margin:0%;
+
+
+
+}
+#menu{
+  margin: auto;
+  padding:0; 
+
+
+}
+#contenido{
+   width: 80%;
+	max-width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+	background-image: url( img/fondo.jpg);
+
+
+}
+
+
+
+table {
+   width: 100%;
+  text-orientation: center;
+   border: 1px solid #000;
+
+  
+}
+th, td {
+	text-align: center;
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 1.0em;
+}
+caption {
+   padding: 0.3em;
+}
+th,td {
+   background-color: white;
+}
+
+
+.divicion {
+  display: flex;
+  justify-content: center;
+}
+.mover {
+  padding: 10px;
+  margin: 10px;
+  float: left;
+ 
+}
+
+
+header img{
+
+width: 100%;
+height: auto;
+
+
+
+}
+
+
+
+
+
+.mover2 {
+  padding: 10px;
+  margin: 10px;
+  float: right;
+ 
+}
+.informacion{
+    padding: 5px;
+	width: 95%;
+	height: 15%;
+	margin: auto;
+	overflow: hidden;
+	background-image: linear-gradient(white,blue);
+}
+footer{
+
+ height: 5%;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+	
+   
+   header nav{
+
+   	width:80%;
+   	height: 100%;
+   	margin:0;
+   
+
+   }
+
+
+   .mover {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+ 
+}
+  
+  .slider{
+
+  	 width: 100%;
+  }
+
+  .informacion{
+  	width: 100%;
+  }
+
+  footer{
+
+  	width: 100%;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+
+   #contenido{
+
+   	width: 100%;
+   }
+
+	}
